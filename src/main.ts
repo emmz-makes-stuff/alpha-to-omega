@@ -160,7 +160,7 @@ function render(): void {
 
     <main>
       <section class="hero" id="top">
-        <p class="hero-kicker">A visual history</p>
+        <p class="hero-kicker">A history of Ancient Greece</p>
         <h1 class="hero-mark">A<span class="arrow">&rarr;</span>&Omega;</h1>
         <p class="hero-range"><span class="rule"></span>3000 BC<span class="rule flip"></span>&nbsp;&mdash;&nbsp;<span class="rule"></span>30 BC<span class="rule flip"></span></p>
         <p class="hero-intro">From the palace at Knossos to Cleopatra's last stand at Actium &mdash; twenty-nine centuries of Ancient Greece, laid out one century at a time.</p>
