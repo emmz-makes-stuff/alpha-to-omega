@@ -1,6 +1,6 @@
 import "./style.css";
 import { sections } from "./data";
-import { findSource } from "./sources";
+import { findSource, findSourceByName } from "./sources";
 import type { ContentBlock, Period } from "./types";
 
 const periodMeta: Record<Period, { label: string; range: string; color: string }> = {
@@ -12,6 +12,7 @@ const periodMeta: Record<Period, { label: string; range: string; color: string }
 
 const wikiIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 5h4l3.2 8.6L13.6 5H17l-5.6 14h-2.8L5.6 8.4 3 14.6V5Z"/><path d="M13.6 5h7.4l-5.2 13.2" stroke-linecap="round"/></svg>`;
 const playIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5" width="19" height="14" rx="3.5"/><path d="M10.5 9.2v5.6l5-2.8-5-2.8Z" fill="currentColor" stroke="none"/></svg>`;
+const linkIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10 14 20 4M20 4h-6M20 4v6" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 const chevronIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 const downArrow = `<svg width="16" height="24" viewBox="0 0 16 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 1v20M2 15l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 
@@ -22,10 +23,38 @@ function escapeHtml(s: string): string {
     .replace(/>/g, "&gt;");
 }
 
-function renderBlock(block: ContentBlock): string {
-  const paras = block.paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join("");
+/**
+ * Renders [[Name]] or [[Name|Display text]] tokens as external links to that
+ * source's Wikipedia article. Each name links only once per section (tracked
+ * via `linked`) so repeated mentions don't clutter the prose.
+ */
+function linkify(text: string, linked: Set<string>): string {
+  const tokenPattern = /\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g;
+  let result = "";
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  while ((match = tokenPattern.exec(text))) {
+    result += escapeHtml(text.slice(lastIndex, match.index));
+    const key = match[1].trim();
+    const display = (match[2] ?? match[1]).trim();
+    const src = findSourceByName(key);
+    const normKey = key.toLowerCase();
+    if (src && !linked.has(normKey)) {
+      linked.add(normKey);
+      result += `<a class="inline-link" href="${escapeHtml(src.wikipedia)}" target="_blank" rel="noopener noreferrer">${escapeHtml(display)}</a>`;
+    } else {
+      result += escapeHtml(display);
+    }
+    lastIndex = tokenPattern.lastIndex;
+  }
+  result += escapeHtml(text.slice(lastIndex));
+  return result;
+}
+
+function renderBlock(block: ContentBlock, linked: Set<string>): string {
+  const paras = block.paragraphs.map((p) => `<p>${linkify(p, linked)}</p>`).join("");
   const list = block.list
-    ? `<ul>${block.list.map((li) => `<li>${escapeHtml(li)}</li>`).join("")}</ul>`
+    ? `<ul>${block.list.map((li) => `<li>${linkify(li, linked)}</li>`).join("")}</ul>`
     : "";
   return `
     <div class="block">
@@ -45,16 +74,26 @@ function renderSourceCard(topic: string): string {
       </div>
     `;
   }
-  const yt = src.youtube
-    ? `<a class="source-link" href="${escapeHtml(src.youtube.url)}" target="_blank" rel="noopener noreferrer">${playIcon}<span>${escapeHtml(src.youtube.channel)}</span></a>`
-    : "";
+  const videoLinks = src.videos
+    .map(
+      (v) =>
+        `<a class="source-link" href="${escapeHtml(v.url)}" target="_blank" rel="noopener noreferrer">${playIcon}<span>${escapeHtml(v.channel)}</span></a>`
+    )
+    .join("");
+  const extraLinks = src.extra
+    .map(
+      (e) =>
+        `<a class="source-link" href="${escapeHtml(e.url)}" target="_blank" rel="noopener noreferrer">${linkIcon}<span>${escapeHtml(e.label)}</span></a>`
+    )
+    .join("");
   return `
     <div class="source-card">
       <div class="source-topic">${escapeHtml(src.topic)}</div>
       <p class="source-blurb">${escapeHtml(src.blurb)}</p>
       <div class="source-links">
         <a class="source-link" href="${escapeHtml(src.wikipedia)}" target="_blank" rel="noopener noreferrer">${wikiIcon}<span>Wikipedia</span></a>
-        ${yt}
+        ${videoLinks}
+        ${extraLinks}
       </div>
     </div>
   `;
@@ -66,7 +105,8 @@ function renderEra(section: (typeof sections)[number], index: number): string {
     ? escapeHtml(section.numeral)
     : `<span aria-hidden="true">&#10022;</span>`;
 
-  const blocks = section.blocks.map(renderBlock).join("");
+  const linked = new Set<string>();
+  const blocks = section.blocks.map((b) => renderBlock(b, linked)).join("");
   const sourceCards = section.sourceTopics.map(renderSourceCard).join("");
 
   return `

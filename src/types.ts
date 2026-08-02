@@ -1,7 +1,21 @@
+export interface Video {
+  title: string;
+  channel: string;
+  url: string;
+}
+
+export interface ExtraLink {
+  label: string;
+  url: string;
+}
+
 export interface Source {
+  /** Short canonical label used for inline [[links]] in prose and as a fallback display name. */
+  name: string;
   topic: string;
   wikipedia: string;
-  youtube: { title: string; channel: string; url: string } | null;
+  videos: Video[];
+  extra: ExtraLink[];
   blurb: string;
 }
 

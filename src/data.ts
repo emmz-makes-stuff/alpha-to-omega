@@ -13,22 +13,22 @@ export const sections: CenturySection[] = [
       {
         heading: "Minoan Crete",
         paragraphs: [
-          "c. 2700–1450 BC. A palace civilization centered on Knossos, whose sprawling, labyrinthine complex fed the later Greek legend of King Minos and the Labyrinth.",
+          "c. 2700–1450 BC. A palace civilization centered on [[Minoan Crete|Knossos]], whose sprawling, labyrinthine complex fed the later Greek legend of King Minos and the Labyrinth.",
           "It ended through some combination of the catastrophic Thera (Santorini) eruption and a later Mycenaean takeover — historians still argue over the mix.",
         ],
       },
       {
         heading: "Mycenaean Greece",
         paragraphs: [
-          "c. 1600–1100 BC. A warrior-palace culture centered on Mycenae, Tiryns, and Pylos — the world later mythologized in Homer's epics.",
-          "The (probably legendary or semi-historical) Trojan War is traditionally dated c. 1250–1180 BC, right at this civilization's twilight.",
+          "c. 1600–1100 BC. A warrior-palace culture centered on [[Mycenaean Greece|Mycenae, Tiryns, and Pylos]] — the world later mythologized in [[Homer]]'s epics.",
+          "The (probably legendary or semi-historical) [[the Trojan War|Trojan War]] is traditionally dated c. 1250–1180 BC, right at this civilization's twilight.",
         ],
       },
       {
         heading: "The Collapse",
         paragraphs: [
-          "c. 1200–1150 BC: part of the wider Bronze Age Collapse, alongside the fall of the Hittites and upheavals across the eastern Mediterranean.",
-          "Palace administration and writing — the Linear B script — disappear entirely. Greece goes dark.",
+          "c. 1200–1150 BC: part of the wider [[the Bronze Age Collapse|Bronze Age Collapse]], alongside the fall of the Hittites and upheavals across the eastern Mediterranean.",
+          "Palace administration and writing — the [[Linear B|Linear B script]] — disappear entirely. Greece goes dark.",
         ],
       },
     ],
@@ -58,13 +58,13 @@ export const sections: CenturySection[] = [
       {
         heading: "Iron and a New Alphabet",
         paragraphs: [
-          "Iron working develops through the period, and near its end Greeks adapt a new alphabet from Phoenician script — the ancestor of the one this sentence is written in.",
+          "Iron working develops through the period, and near its end Greeks adapt [[the Phoenician alphabet|a new alphabet from Phoenician script]] — the ancestor of the one this sentence is written in.",
         ],
       },
       {
         heading: "The Bards Remember",
         paragraphs: [
-          "With no writing, oral epic poetry keeps the memory of the Mycenaean past alive, generation to generation, culminating in Homer.",
+          "With no writing, oral epic poetry keeps the memory of the Mycenaean past alive, generation to generation, culminating in [[Homer]].",
         ],
       },
     ],
@@ -85,21 +85,21 @@ export const sections: CenturySection[] = [
       {
         heading: "Politics & Society",
         paragraphs: [
-          "The polis — the city-state — begins to take shape as the basic Greek political unit. Athens, Sparta, Corinth, Argos, and Thebes are among the earliest to consolidate.",
-          "Colonization begins in earnest: Greek cities found colonies in Sicily and southern Italy (“Magna Graecia”) and along the Black Sea coast — Syracuse, founded by Corinth c. 733 BC, among the most famous.",
-          "Sparta begins its distinctive military-social transformation; conflict with neighboring Messenia begins with the First Messenian War, late in this century.",
+          "The [[the polis|polis]] — the city-state — begins to take shape as the basic Greek political unit. Athens, Sparta, Corinth, Argos, and Thebes are among the earliest to consolidate.",
+          "Colonization begins in earnest: Greek cities found colonies in Sicily and southern Italy (“[[Magna Graecia]]”) and along the Black Sea coast — Syracuse, founded by Corinth c. 733 BC, among the most famous.",
+          "Sparta begins its distinctive military-social transformation; conflict with neighboring Messenia begins with the [[the First Messenian War|First Messenian War]], late in this century.",
         ],
       },
       {
         heading: "A Panhellenic Ritual",
         paragraphs: [
-          "776 BC: the traditional founding date of the Olympic Games at Olympia — the first great event to draw Greeks from every city together.",
+          "776 BC: the traditional founding date of the [[the Olympic Games|Olympic Games]] at Olympia — the first great event to draw Greeks from every city together.",
         ],
       },
       {
         heading: "Writers & Thinkers",
         paragraphs: [
-          "Homer (the Iliad and Odyssey) and Hesiod (Theogony and Works and Days) are composed and written down in this century — the foundational texts of Greek literature.",
+          "[[Homer]] (the Iliad and Odyssey) and [[Hesiod]] (Theogony and Works and Days) are composed and written down in this century — the foundational texts of Greek literature.",
         ],
       },
     ],
@@ -124,32 +124,32 @@ export const sections: CenturySection[] = [
       {
         heading: "The Rise of Tyrants",
         paragraphs: [
-          "Tyrants — autocratic rulers, often populist, who seized power outside traditional aristocratic succession — rise in cities like Corinth (under Cypselus) and Sicyon.",
+          "Tyrants — autocratic rulers, often populist, who seized power outside traditional aristocratic succession — rise in cities like Corinth (under [[Cypselus]]) and Sicyon.",
         ],
       },
       {
         heading: "Sparta Forged",
         paragraphs: [
-          "Sparta completes its conquest of Messenia in the Second Messenian War, creating the helot system that underpins its uniquely militarized society.",
-          "The semi-legendary Lycurgan reforms shape the Spartan constitution and the agoge, its brutal training system for citizen-soldiers.",
+          "Sparta completes its conquest of Messenia in the [[the Second Messenian War|Second Messenian War]], creating the helot system that underpins its uniquely militarized society.",
+          "The semi-legendary [[the Lycurgan reforms|Lycurgan reforms]] shape the Spartan constitution and the agoge, its brutal training system for citizen-soldiers.",
         ],
       },
       {
         heading: "Athens' First Laws",
         paragraphs: [
-          "c. 621 BC: Draco issues Athens' first written law code — so harsh that “draconian” still means exactly that, 2,600 years later.",
+          "c. 621 BC: [[Draco]] issues Athens' first written law code — so harsh that “draconian” still means exactly that, 2,600 years later.",
         ],
       },
       {
         heading: "The First Lyric Poets",
         paragraphs: [
-          "Archilochus and other lyric poets flourish, beginning a tradition that carries into Sappho and Alcaeus on Lesbos, writing right at this century's edge.",
+          "[[Archilochus]] and other lyric poets flourish, beginning a tradition that carries into [[Sappho]] and [[Alcaeus]] on Lesbos, writing right at this century's edge.",
         ],
       },
       {
         heading: "Reaching Outward",
         paragraphs: [
-          "Colonization continues, and Greek contact with Egypt deepens through a trading post at Naukratis.",
+          "Colonization continues, and Greek contact with Egypt deepens through a trading post at [[Naukratis]].",
         ],
       },
     ],
@@ -176,33 +176,33 @@ export const sections: CenturySection[] = [
       {
         heading: "Athens Reinvented",
         paragraphs: [
-          "c. 594 BC: Solon enacts sweeping economic and constitutional reforms, cancelling debt-bondage and reorganizing Athenian citizenship into new classes.",
-          "The tyrant Pisistratus and his sons rule Athens (c. 561–510 BC), sponsoring public works, festivals, and the codification of Homer's texts. The tyranny falls in 510 BC.",
-          "Cleisthenes then introduces reforms in 508/507 BC — reorganizing citizens into ten tribes and establishing the Council of 500 — laying the foundations of Athenian democracy.",
+          "c. 594 BC: [[Solon]] enacts sweeping economic and constitutional reforms, cancelling debt-bondage and reorganizing Athenian citizenship into new classes.",
+          "The tyrant [[Pisistratus]] and his sons rule Athens (c. 561–510 BC), sponsoring public works, festivals, and the codification of Homer's texts. The tyranny falls in 510 BC.",
+          "[[Cleisthenes]] then introduces reforms in 508/507 BC — reorganizing citizens into ten tribes and establishing the Council of 500 — laying the foundations of Athenian democracy.",
         ],
       },
       {
         heading: "Sparta's League",
         paragraphs: [
-          "Sparta organizes the Peloponnesian League, becoming the dominant land power in Greece.",
+          "Sparta organizes the [[the Peloponnesian League|Peloponnesian League]], becoming the dominant land power in Greece.",
         ],
       },
       {
         heading: "Persia Rises",
         paragraphs: [
-          "Cyrus the Great and then Darius I build the Achaemenid Persian Empire, absorbing the Greek cities of Ionia in Asia Minor — setting up the conflict to come.",
+          "Cyrus the Great and then Darius I build the [[the Achaemenid Persian Empire|Achaemenid Persian Empire]], absorbing the Greek cities of Ionia in Asia Minor — setting up the conflict to come.",
         ],
       },
       {
         heading: "The First Philosophers",
         paragraphs: [
-          "The “Pre-Socratics” ask what the universe is fundamentally made of: Thales of Miletus (often called the first philosopher, said to have predicted a solar eclipse), Anaximander, Anaximenes, Pythagoras (mathematics and mysticism, founding a community at Croton in Italy), Xenophanes, and Heraclitus — “you cannot step in the same river twice.”",
+          "The “Pre-Socratics” ask what the universe is fundamentally made of: [[Thales|Thales of Miletus]] (often called the first philosopher, said to have predicted a solar eclipse), [[Anaximander]], Anaximenes, [[Pythagoras]] (mathematics and mysticism, founding a community at Croton in Italy), Xenophanes, and [[Heraclitus]] — “you cannot step in the same river twice.”",
         ],
       },
       {
         heading: "Poets and the First Stage",
         paragraphs: [
-          "Sappho and Alcaeus continue writing personal, lyric poetry. Aesop is traditionally dated here for his fables, and early dramatic contests begin at Athens' City Dionysia — with Thespis, traditionally the first actor, c. 534 BC.",
+          "[[Sappho]] and [[Alcaeus]] continue writing personal, lyric poetry. [[Aesop]] is traditionally dated here for his fables, and early dramatic contests begin at Athens' City Dionysia — with [[Thespis]], traditionally the first actor, c. 534 BC.",
         ],
       },
     ],
@@ -233,37 +233,37 @@ export const sections: CenturySection[] = [
         heading: "The Persian Wars — 499–449 BC",
         paragraphs: [],
         list: [
-          "499 BC — the Ionian Revolt against Persia; Athens sends aid.",
-          "490 BC — the Battle of Marathon: Athens, with Plataea, defeats Darius I's invasion force.",
-          "480 BC — Xerxes I invades; the Battle of Thermopylae (Leonidas and the 300 Spartans, a delaying action) and the sack of Athens, followed by the Battle of Salamis, a decisive Greek naval victory led largely by the Athenian fleet under Themistocles.",
-          "479 BC — the Battle of Plataea ends the Persian invasion on land.",
+          "499 BC — the [[the Ionian Revolt|Ionian Revolt]] against Persia; Athens sends aid.",
+          "490 BC — the [[the Battle of Marathon|Battle of Marathon]]: Athens, with Plataea, defeats Darius I's invasion force.",
+          "480 BC — Xerxes I invades; the [[the Battle of Thermopylae|Battle of Thermopylae]] (Leonidas and the 300 Spartans, a delaying action) and the sack of Athens, followed by the [[the Battle of Salamis|Battle of Salamis]], a decisive Greek naval victory led largely by the Athenian fleet under Themistocles.",
+          "479 BC — the [[the Battle of Plataea|Battle of Plataea]] ends the Persian invasion on land.",
         ],
       },
       {
         heading: "Athens Ascendant",
         paragraphs: [
-          "Athens forms the Delian League in 477 BC — nominally a defensive alliance, it becomes an Athenian maritime empire funded by allied tribute.",
-          "Pericles dominates Athenian politics from the 450s, overseeing construction of the Parthenon and the other Acropolis monuments, alongside the flourishing of radical democracy.",
+          "Athens forms the [[the Delian League|Delian League]] in 477 BC — nominally a defensive alliance, it becomes an Athenian maritime empire funded by allied tribute.",
+          "[[Pericles]] dominates Athenian politics from the 450s, overseeing construction of the Parthenon and the other Acropolis monuments, alongside the flourishing of radical democracy.",
         ],
       },
       {
         heading: "The Peloponnesian War — 431–404 BC",
         paragraphs: [
-          "Athens and its empire against Sparta and the Peloponnesian League. Key episodes: the Athenian plague of 430 BC, which killed Pericles; the catastrophic Sicilian Expedition (415–413 BC); a Spartan naval buildup funded by Persian money; and Athens' final surrender in 404 BC, leaving Sparta briefly dominant in Greece.",
+          "Athens and its empire against Sparta and the [[the Peloponnesian League|Peloponnesian League]]. Key episodes: the [[the Athenian plague|Athenian plague of 430 BC]], which killed [[Pericles]]; the catastrophic [[the Sicilian Expedition|Sicilian Expedition]] (415–413 BC); a Spartan naval buildup funded by Persian money; and Athens' final surrender in 404 BC, leaving Sparta briefly dominant in Greece.",
         ],
       },
       {
         heading: "Philosophy & History",
         paragraphs: [
-          "Socrates (c. 470–399 BC) teaches in Athens, questioning everything via the “Socratic method”; he is tried and executed in 399 BC. The Sophists — Protagoras, Gorgias — teach rhetoric and relativism.",
-          "Herodotus, the “Father of History,” writes his Histories of the Persian Wars; Thucydides writes his unflinching History of the Peloponnesian War.",
+          "[[Socrates]] (c. 470–399 BC) teaches in Athens, questioning everything via the “Socratic method”; he is tried and executed in 399 BC. [[the Sophists|The Sophists]] — Protagoras, Gorgias — teach rhetoric and relativism.",
+          "[[Herodotus]], the “Father of History,” writes his Histories of the Persian Wars; [[Thucydides]] writes his unflinching History of the Peloponnesian War.",
         ],
       },
       {
         heading: "Tragedy, Comedy, and Art",
         paragraphs: [
-          "The three great tragedians — Aeschylus (Oresteia, Persians), Sophocles (Oedipus Rex, Antigone), Euripides (Medea, The Bacchae) — all work in Athens; the comic playwright Aristophanes (Lysistrata, The Clouds, The Frogs) satirizes politics and society.",
-          "The sculptor Phidias oversees the Parthenon's sculptural program, while Polykleitos establishes an idealized standard of human proportion in classical sculpture.",
+          "The three great tragedians — [[Aeschylus]] (Oresteia, Persians), [[Sophocles]] (Oedipus Rex, Antigone), [[Euripides]] (Medea, The Bacchae) — all work in Athens; the comic playwright [[Aristophanes]] (Lysistrata, The Clouds, The Frogs) satirizes politics and society.",
+          "The sculptor [[Phidias]] oversees the Parthenon's sculptural program, while [[Polykleitos]] establishes an idealized standard of human proportion in classical sculpture.",
         ],
       },
     ],
@@ -302,34 +302,34 @@ export const sections: CenturySection[] = [
       {
         heading: "A Game of Hegemons",
         paragraphs: [
-          "No single city dominates for long. Sparta's harsh hegemony after 404 BC provokes the Corinthian War (395–387 BC).",
-          "Thebes rises under the general Epaminondas, decisively breaking Spartan military supremacy at the Battle of Leuctra (371 BC) with innovative tactics. Theban dominance is brief, ending with Epaminondas's death at Mantinea (362 BC).",
+          "No single city dominates for long. Sparta's harsh hegemony after 404 BC provokes the [[the Corinthian War|Corinthian War]] (395–387 BC).",
+          "Thebes rises under the general [[Epaminondas]], decisively breaking Spartan military supremacy at the Battle of Leuctra (371 BC) with innovative tactics. Theban dominance is brief, ending with Epaminondas's death at [[Mantinea]] (362 BC).",
         ],
       },
       {
         heading: "The Rise of Macedon",
         paragraphs: [
-          "Philip II of Macedon (r. 359–336 BC) reforms the Macedonian army around the sarissa phalanx and subdues the Greek city-states, culminating in victory at the Battle of Chaeronea (338 BC) — effectively ending Greek city-state independence.",
-          "The orator Demosthenes leads Athenian resistance to Macedon through his Philippics.",
+          "[[Philip II|Philip II of Macedon]] (r. 359–336 BC) reforms the Macedonian army around the sarissa phalanx and subdues the Greek city-states, culminating in victory at the [[the Battle of Chaeronea|Battle of Chaeronea]] (338 BC) — effectively ending Greek city-state independence.",
+          "The orator [[Demosthenes]] leads Athenian resistance to Macedon through his Philippics.",
         ],
       },
       {
         heading: "Alexander the Great",
         paragraphs: [
-          "Alexander (r. 336–323 BC), Philip's son, conquers the Persian Empire (Granicus, Issus, Gaugamela), Egypt, and pushes into India, spreading Greek culture across the Near East before dying in Babylon in 323 BC.",
-          "His empire fragments among his generals, the Diadochi, beginning the Hellenistic period.",
+          "[[Alexander]] (r. 336–323 BC), Philip's son, conquers the Persian Empire (Granicus, Issus, [[Gaugamela]]), Egypt, and pushes into India, spreading Greek culture across the Near East before dying in Babylon in 323 BC.",
+          "His empire fragments among his generals, the [[the Diadochi|Diadochi]], beginning the Hellenistic period.",
         ],
       },
       {
         heading: "Philosophy's Golden Age",
         paragraphs: [
-          "Plato (c. 428–348 BC) founds the Academy in Athens and writes the dialogues — Republic, Symposium, Phaedo. His student Aristotle (384–322 BC) founds the Lyceum, writes on logic, biology, ethics, politics, and metaphysics, and tutors the young Alexander.",
+          "[[Plato]] (c. 428–348 BC) founds the Academy in Athens and writes the dialogues — Republic, Symposium, Phaedo. His student [[Aristotle]] (384–322 BC) founds the Lyceum, writes on logic, biology, ethics, politics, and metaphysics, and tutors the young Alexander.",
         ],
       },
       {
         heading: "Other Voices",
         paragraphs: [
-          "Diogenes of Sinope lives out Cynic philosophy provocatively, reputedly in a barrel; the historian Xenophon writes the Anabasis, an account of the “March of the Ten Thousand.”",
+          "[[Diogenes of Sinope]] lives out Cynic philosophy provocatively, reputedly in a barrel; the historian [[Xenophon]] writes the Anabasis, an account of the “March of the Ten Thousand.”",
         ],
       },
     ],
@@ -361,26 +361,26 @@ export const sections: CenturySection[] = [
       {
         heading: "Three Kingdoms",
         paragraphs: [
-          "Greek culture and language spread across a vast area following Alexander's conquests, though the political unity is gone. Three major successor kingdoms dominate: Ptolemaic Egypt, capital Alexandria, which becomes the intellectual capital of the Greek world, home to the Library of Alexandria; the Seleucid Empire, spanning Mesopotamia to parts of Central Asia; and Antigonid Macedon, ruling Greece itself.",
-          "Greek city-states form federal leagues — the Aetolian League and the Achaean League — to preserve some autonomy against the larger kingdoms.",
+          "Greek culture and language spread across a vast area following Alexander's conquests, though the political unity is gone. Three major successor kingdoms dominate: [[Ptolemaic Egypt]], capital Alexandria, which becomes the intellectual capital of the Greek world, home to the [[the Library of Alexandria|Library of Alexandria]]; the [[the Seleucid Empire|Seleucid Empire]], spanning Mesopotamia to parts of Central Asia; and [[Antigonid Macedon]], ruling Greece itself.",
+          "Greek city-states form federal leagues — the [[the Aetolian League|Aetolian League]] and the [[the Achaean League|Achaean League]] — to preserve some autonomy against the larger kingdoms.",
         ],
       },
       {
         heading: "Science in Alexandria",
         paragraphs: [
-          "Science and mathematics flourish: Euclid systematizes geometry in the Elements, Archimedes of Syracuse advances mathematics, engineering, and physics, and Eratosthenes — chief librarian at Alexandria — calculates the Earth's circumference with startling accuracy.",
+          "Science and mathematics flourish: [[Euclid]] systematizes geometry in the Elements, [[Archimedes|Archimedes of Syracuse]] advances mathematics, engineering, and physics, and [[Eratosthenes]] — chief librarian at Alexandria — calculates the Earth's circumference with startling accuracy.",
         ],
       },
       {
         heading: "New Philosophies for a Bigger World",
         paragraphs: [
-          "New schools respond to a world of large, impersonal kingdoms rather than small city-states: Epicurus founds Epicureanism (pleasure, tranquility, atomism) in Athens, and Zeno of Citium founds Stoicism, also in Athens.",
+          "New schools respond to a world of large, impersonal kingdoms rather than small city-states: [[Epicurus]] founds Epicureanism (pleasure, tranquility, atomism) in Athens, and [[Zeno of Citium]] founds Stoicism, also in Athens.",
         ],
       },
       {
         heading: "Scholarly Poets",
         paragraphs: [
-          "Hellenistic poetry becomes more scholarly and personal — Callimachus and Apollonius of Rhodes (Argonautica) exemplify the learned, allusive style of Alexandrian court poetry.",
+          "Hellenistic poetry becomes more scholarly and personal — [[Callimachus]] and [[Apollonius of Rhodes]] (Argonautica) exemplify the learned, allusive style of Alexandrian court poetry.",
         ],
       },
     ],
@@ -412,13 +412,13 @@ export const sections: CenturySection[] = [
       {
         heading: "The Macedonian Wars",
         paragraphs: [
-          "Rome progressively conquers the Hellenistic world. The Macedonian Wars (214–148 BC) end Antigonid independence.",
+          "Rome progressively conquers the Hellenistic world. The [[the Macedonian Wars|Macedonian Wars]] (214–148 BC) end Antigonid independence.",
         ],
       },
       {
         heading: "146 BC: Corinth Destroyed",
         paragraphs: [
-          "Rome destroys Corinth, crushing the Achaean League and effectively ending Greek political independence — mainland Greece becomes a Roman protectorate, then province.",
+          "Rome destroys [[the destruction of Corinth|Corinth]], crushing the [[the Achaean League|Achaean League]] and effectively ending Greek political independence — mainland Greece becomes a Roman protectorate, then province.",
         ],
       },
       {
@@ -430,7 +430,7 @@ export const sections: CenturySection[] = [
       {
         heading: "The Kingdoms Weaken",
         paragraphs: [
-          "The Seleucid and Ptolemaic kingdoms persist but weaken, squeezed between Rome and internal strife.",
+          "The [[the Seleucid Empire|Seleucid]] and [[Ptolemaic Egypt|Ptolemaic]] kingdoms persist but weaken, squeezed between Rome and internal strife.",
         ],
       },
     ],
@@ -451,25 +451,25 @@ export const sections: CenturySection[] = [
       {
         heading: "Rome Absorbs the Rest",
         paragraphs: [
-          "Rome continues absorbing the remaining Hellenistic territories: the Seleucid Empire collapses and becomes the Roman province of Syria in 64 BC, under Pompey.",
+          "Rome continues absorbing the remaining Hellenistic territories: the [[the Seleucid Empire|Seleucid Empire]] collapses and becomes the Roman province of Syria in 64 BC, under [[Pompey]].",
         ],
       },
       {
         heading: "Egypt, the Last Holdout",
         paragraphs: [
-          "Ptolemaic Egypt survives longest as a nominally independent Hellenistic kingdom, ruled by the Greek-descended Ptolemaic dynasty — ending with Cleopatra VII.",
+          "[[Ptolemaic Egypt]] survives longest as a nominally independent Hellenistic kingdom, ruled by the Greek-descended Ptolemaic dynasty — ending with [[Cleopatra VII]].",
         ],
       },
       {
         heading: "31 BC: Actium",
         paragraphs: [
-          "At the Battle of Actium, Octavian (later Augustus) defeats Mark Antony and Cleopatra.",
+          "At the [[the Battle of Actium|Battle of Actium]], [[Octavian]] (later Augustus) defeats [[Mark Antony]] and [[Cleopatra VII|Cleopatra]].",
         ],
       },
       {
         heading: "30 BC: The End",
         paragraphs: [
-          "Egypt is annexed by Rome following Cleopatra's death — conventionally marking the end of the Hellenistic period, and of “Ancient Greece” as an independent political entity.",
+          "Egypt is [[the annexation of Egypt|annexed by Rome]] following Cleopatra's death — conventionally marking the end of the Hellenistic period, and of “Ancient Greece” as an independent political entity.",
           "Yet Greek language, culture, philosophy, and identity remain vibrant within the Roman — and later Byzantine — world for centuries afterward.",
         ],
       },

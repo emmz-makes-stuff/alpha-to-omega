@@ -451,6 +451,19 @@ a { color: inherit; }
   letter-spacing: 0.01em;
 }
 .block p { color: var(--ink); font-size: 1.02rem; }
+
+.inline-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--dot, var(--gold));
+  transition: color 180ms, border-bottom-color 180ms, background 180ms;
+}
+.inline-link:hover,
+.inline-link:focus-visible {
+  color: var(--dot, var(--gold));
+  border-bottom: 1px solid var(--dot, var(--gold));
+  background: rgba(169, 126, 47, 0.08);
+}
 .block ul { list-style: none; margin: 0.2em 0 1em; }
 .block li {
   position: relative;
